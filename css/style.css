@@ -1,9 +1,11 @@
 #nav{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
     list-style: none;
-    background-color: azure;
+    background-color: lightskyblue;
 }
 
 #nav li{
@@ -70,4 +72,15 @@ pre{
     border-radius: 10px;
     width: 80%;
     color: greenyellow;
+}
+
+/* try catch */
+#bodyTry{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#mensaje{
+    font-weight: bold;
+    color: salmon;
 }
