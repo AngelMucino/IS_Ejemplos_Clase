@@ -52,3 +52,12 @@
     color: #fff;
     background-color: black;
 }
+/* carrito */
+#carritoLista{
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    border: 5px solid rgb(151, 244, 29);
+    background-color: lightskyblue;
+    color: white;
+}
